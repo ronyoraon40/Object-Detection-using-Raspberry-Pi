@@ -12,6 +12,7 @@ Steps to operate and prepare Pi:
 6. Install OpenCV using PIP
 
 #Enable Pi Camera and VNC
+
 sudo raspi-config
 
   Go to Interfaces->
