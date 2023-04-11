@@ -1,15 +1,17 @@
-This project is based on detecting objects from picamera which is connected to raspberry pi. The model is mounted on top of a cap. Whenever an object is detected in front of the cap, buzzer will turn ON and the object is marked with a rectangular boundary along with the name of the object.
-You can select objects names from the coco file attached in the code.
-This project is completely based on object detection algorithm.
-Future Reference: You can implement this project for detecting objects and getting a voice output using gtts python package that will speak out the detected object name.
-
 Change the path for following variables in the code according to your need:
 1. classFile
 2. configPath
 3. weightsPath
 
-#Enable Pi Camera and VNC
+Steps to operate and prepare Pi:
+1. Enable Pi Camera and VNC
+2. Update and Upgrade Raspberry pi
+3. Update the formware and reboot
+4. Upgrade the kernel
+5. Install the dependencies
+6. Install OpenCV using PIP
 
+#Enable Pi Camera and VNC
 sudo raspi-config
 
   Go to Interfaces->
